@@ -8,13 +8,36 @@
       <link href="/2024/12/06/conf/"/>
       <url>/2024/12/06/conf/</url>
       
-        <content type="html"><![CDATA[<h1 id="Front-matter"><a href="#Front-matter" class="headerlink" title="Front-matter"></a>Front-matter</h1><p>Front-matter 是文件最上方以 — 分隔的区域，用于指定个别文件的变量。以下是预先定义的参数，您可以在模板中使用这些参数值：</p><table><thead><tr><th>参数</th><th>描述</th><th align="left">默认值</th></tr></thead><tbody><tr><td>layout</td><td>布局</td><td align="left">post</td></tr><tr><td>title</td><td>标题</td><td align="left"></td></tr><tr><td>date</td><td>建立日期</td><td align="left">文件建立日期</td></tr><tr><td>updated</td><td>更新日期</td><td align="left">文件更新日期</td></tr><tr><td>comments</td><td>开启文章的评论功能</td><td align="left">true</td></tr><tr><td>tags</td><td>标签（不适用于分页）</td><td align="left"></td></tr><tr><td>categories</td><td>分类（不适用于分页）</td><td align="left"></td></tr><tr><td>permalink</td><td>覆盖文章网址</td><td align="left"></td></tr><tr><td>excerpt</td><td>纯文本的页面摘要</td><td align="left"></td></tr><tr><td>disableNunjucks</td><td>启用渲染引擎</td><td align="left">false</td></tr><tr><td>lang</td><td>设置语言</td><td align="left">默认语言</td></tr><tr><td>sticky</td><td>文章置顶</td><td align="left">0</td></tr><tr><td>cover</td><td>文章封面</td><td align="left"></td></tr><tr><td>comments</td><td>显示文章评论模块</td><td align="left">true</td></tr><tr><td>copyright</td><td>显示文章版权模块</td><td align="left">true</td></tr><tr><td>mathjax</td><td>显示mathjax</td><td align="left">false</td></tr><tr><td>katex</td><td>显示katex</td><td align="left">false</td></tr><tr><td>aside</td><td>显示侧边栏</td><td align="left">true</td></tr><tr><td>aplayer</td><td>在该页面下加载aplayer的js和css</td><td align="left">false</td></tr><tr><td>highlight_shrink</td><td>代码框是否展开</td><td align="left">false</td></tr><tr><td>toc</td><td>是否显示文章目录</td><td align="left">false</td></tr><tr><td>copyright_author: xxxx</td><td></td><td align="left"></td></tr><tr><td>copyright_author_href: <a href="https://xxxxxx.com/">https://xxxxxx.com</a></td><td></td><td align="left"></td></tr><tr><td>copyright_url: <a href="https://xxxxxx.com/">https://xxxxxx.com</a></td><td></td><td align="left"></td></tr><tr><td>copyright_info: 此文章版權歸 xxxxx 所有，如有轉載，請註明來自原作者</td><td></td><td align="left"></td></tr></tbody></table><h1 id="需要完善的部分"><a href="#需要完善的部分" class="headerlink" title="需要完善的部分"></a>需要完善的部分</h1><ul><li>评论功能</li><li>在线聊天功能</li><li>分析功能</li><li>在线修改功能</li></ul>]]></content>
+        <content type="html"><![CDATA[<h1 id="Front-matter"><a href="#Front-matter" class="headerlink" title="Front-matter"></a>Front-matter</h1><p>Front-matter 是文件最上方以 — 分隔的区域，用于指定个别文件的变量。以下是预先定义的参数，您可以在模板中使用这些参数值：</p><table><thead><tr><th>参数</th><th>描述</th><th align="left">默认值</th></tr></thead><tbody><tr><td>layout</td><td>布局</td><td align="left">post</td></tr><tr><td>title</td><td>标题</td><td align="left"></td></tr><tr><td>date</td><td>建立日期</td><td align="left">文件建立日期</td></tr><tr><td>updated</td><td>更新日期</td><td align="left">文件更新日期</td></tr><tr><td>comments</td><td>开启文章的评论功能</td><td align="left">true</td></tr><tr><td>tags</td><td>标签（不适用于分页）</td><td align="left"></td></tr><tr><td>categories</td><td>分类（不适用于分页）</td><td align="left"></td></tr><tr><td>toc_style_simple</td><td>使用更简洁的toc风格</td><td align="left">false</td></tr><tr><td>permalink</td><td>覆盖文章网址</td><td align="left"></td></tr><tr><td>excerpt</td><td>纯文本的页面摘要</td><td align="left"></td></tr><tr><td>disableNunjucks</td><td>启用渲染引擎</td><td align="left">false</td></tr><tr><td>lang</td><td>设置语言</td><td align="left">默认语言</td></tr><tr><td>sticky</td><td>文章置顶</td><td align="left">0</td></tr><tr><td>cover</td><td>文章封面</td><td align="left"></td></tr><tr><td>comments</td><td>显示文章评论模块</td><td align="left">true</td></tr><tr><td>description</td><td>页面描述</td><td align="left"></td></tr><tr><td>toc</td><td>是否显示文章目录</td><td align="left">false</td></tr><tr><td>keywords</td><td>页面关键词</td><td align="left"></td></tr><tr><td>copyright</td><td>显示文章版权模块</td><td align="left">true</td></tr><tr><td>mathjax</td><td>显示mathjax</td><td align="left">false</td></tr><tr><td>katex</td><td>显示katex</td><td align="left">false</td></tr><tr><td>aside</td><td>显示侧边栏</td><td align="left">true</td></tr><tr><td>aplayer</td><td>在该页面下加载aplayer的js和css</td><td align="left">false</td></tr><tr><td>highlight_shrink</td><td>代码框是否展开</td><td align="left">false</td></tr><tr><td>copyright_author: xxxx</td><td></td><td align="left"></td></tr><tr><td>copyright_author_href: <a href="https://xxxxxx.com/">https://xxxxxx.com</a></td><td></td><td align="left"></td></tr><tr><td>copyright_url: <a href="https://xxxxxx.com/">https://xxxxxx.com</a></td><td></td><td align="left"></td></tr><tr><td>copyright_info: 此文章版權歸 xxxxx 所有，如有轉載，請註明來自原作者</td><td></td><td align="left"></td></tr></tbody></table><h1 id="需要完善的部分"><a href="#需要完善的部分" class="headerlink" title="需要完善的部分"></a>需要完善的部分</h1><ul><li>评论功能</li><li>在线聊天功能</li><li>分析功能</li><li>在线修改功能</li><li>photos</li><li>music</li><li>movies</li></ul>]]></content>
       
       
       
         <tags>
             
             <tag> 主页配置 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>cpp</title>
+      <link href="/2024/12/05/cpp/"/>
+      <url>/2024/12/05/cpp/</url>
+      
+        <content type="html"><![CDATA[<h2 id="basic-grammar-cpp-11"><a href="#basic-grammar-cpp-11" class="headerlink" title="basic grammar cpp 11"></a>basic grammar cpp 11</h2><ul><li><a href="https://github.com/Light-City/CPlusPlusThings?tab=readme-ov-file#">Cpp那些事</a></li><li><a href="https://github.com/TheAlgorithms/C-Plus-Plus?tab=readme-ov-file">The Algorithms of cpp</a> Cpp的一些算法</li><li><a href="https://github.com/progschj/ThreadPool">Tread Pool</a> c11</li></ul><h2 id="project"><a href="#project" class="headerlink" title="project"></a>project</h2><h3 id="easy"><a href="#easy" class="headerlink" title="easy"></a>easy</h3><ul><li><a href="https://github.com/yuesong-feng/30dayMakeCppServer/tree/main">30 days of web server</a> 30天写一个web服务器</li><li><a href="https://github.com/practical-tutorials/project-based-learning">projects of mutilanguage</a> cpp编译器等</li><li><a href="https://github.com/sylar-yin/sylar">sylar- a web server</a> 很全面的cpp 服务器项目</li><li><a href="https://github.com/balloonwj/CppGuide?tab=readme-ov-file">CppGuide</a> 全面的CPP教程包括projects实践</li><li><a href="https://github.com/qinguoyi/TinyWebServer">tinywebserver</a> 一个轻量级的web服务器</li><li><a href="https://github.com/SamyPesse/How-to-Make-a-Computer-Operating-System">a easy os</a> 一个简单的操作系统</li><li><a href="https://link.zhihu.com/?target=https://github.com/aristocratos/btop">btop</a> 资源管理工具</li><li><a href="https://github.com/SerenityOS/serenity">make a computer operating system</a> 一个操作系统 hard</li></ul><h3 id="hard"><a href="#hard" class="headerlink" title="hard"></a>hard</h3><ul><li><a href="https://github.com/gabime/spdlog">a logging system</a> 一个日志系统</li><li><a href="https://github.com/Alinshans/MyTinySTL">My STL</a> 一个stl库</li></ul><h2 id="more-projects"><a href="#more-projects" class="headerlink" title="more projects"></a>more projects</h2><ul><li><a href="https://www.nowcoder.com/discuss/614479695123316736">more</a></li><li><a href="https://link.zhihu.com/?target=https://github.com/jobbole/awesome-cpp-cn">more</a></li></ul>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> cpp </tag>
+            
+            <tag> webserver </tag>
+            
+            <tag> threadpool </tag>
             
         </tags>
       
