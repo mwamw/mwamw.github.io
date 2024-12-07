@@ -23,29 +23,6 @@
     
     
     <entry>
-      <title>cpp</title>
-      <link href="/2024/12/05/cpp/"/>
-      <url>/2024/12/05/cpp/</url>
-      
-        <content type="html"><![CDATA[<h2 id="basic-grammar-cpp-11"><a href="#basic-grammar-cpp-11" class="headerlink" title="basic grammar cpp 11"></a>basic grammar cpp 11</h2><ul><li><a href="https://github.com/Light-City/CPlusPlusThings?tab=readme-ov-file#">Cpp那些事</a></li><li><a href="https://github.com/TheAlgorithms/C-Plus-Plus?tab=readme-ov-file">The Algorithms of cpp</a> Cpp的一些算法</li><li><a href="https://github.com/progschj/ThreadPool">Tread Pool</a> c11</li></ul><h2 id="project"><a href="#project" class="headerlink" title="project"></a>project</h2><h3 id="easy"><a href="#easy" class="headerlink" title="easy"></a>easy</h3><ul><li><a href="https://github.com/yuesong-feng/30dayMakeCppServer/tree/main">30 days of web server</a> 30天写一个web服务器</li><li><a href="https://github.com/practical-tutorials/project-based-learning">projects of mutilanguage</a> cpp编译器等</li><li><a href="https://github.com/sylar-yin/sylar">sylar- a web server</a> 很全面的cpp 服务器项目</li><li><a href="https://github.com/balloonwj/CppGuide?tab=readme-ov-file">CppGuide</a> 全面的CPP教程包括projects实践</li><li><a href="https://github.com/qinguoyi/TinyWebServer">tinywebserver</a> 一个轻量级的web服务器</li><li><a href="https://github.com/SamyPesse/How-to-Make-a-Computer-Operating-System">a easy os</a> 一个简单的操作系统</li><li><a href="https://link.zhihu.com/?target=https://github.com/aristocratos/btop">btop</a> 资源管理工具</li><li><a href="https://github.com/SerenityOS/serenity">make a computer operating system</a> 一个操作系统 hard</li></ul><h3 id="hard"><a href="#hard" class="headerlink" title="hard"></a>hard</h3><ul><li><a href="https://github.com/gabime/spdlog">a logging system</a> 一个日志系统</li><li><a href="https://github.com/Alinshans/MyTinySTL">My STL</a> 一个stl库</li></ul><h2 id="more-projects"><a href="#more-projects" class="headerlink" title="more projects"></a>more projects</h2><ul><li><a href="https://www.nowcoder.com/discuss/614479695123316736">more</a></li><li><a href="https://link.zhihu.com/?target=https://github.com/jobbole/awesome-cpp-cn">more</a></li></ul>]]></content>
-      
-      
-      
-        <tags>
-            
-            <tag> cpp </tag>
-            
-            <tag> webserver </tag>
-            
-            <tag> threadpool </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>LLM2DB</title>
       <link href="/2024/12/03/LLM2DB/"/>
       <url>/2024/12/03/LLM2DB/</url>
